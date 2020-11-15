@@ -12,7 +12,7 @@ Prior to building Tinker-OpenMM, you must have available a Linux system with sta
 
 <H2><B>Building & Installing OpenMM</B></H2>
 
-Prior to building Tinker-OpenMM, you must have available a Linux system with standard development tools, including the GNU compiler suite V7 or later with gcc, g++ and gfortran. We routinely test on Ubuntu 18.04 and 20.04 LTS systems, as well as various versionos of CentOS, but 
+Tinker-OpenMM requires several dynamic object libraries from the OpenMM package. Prior to building Tinker-OpenMM, you must first build the OpenMM version obtained from the current master repository at https://github.com/openmm/openmm. Download or clone this version of OpenMM, and then follow the standard instructions for building and installing OpenMM that are provided with that package. The basic procedure involves running cmake to configure a Makefile, followed by "make" and "make install". The final installation should be located in the default location, /usr/local/openmm. You can also try running "make tests", which will run a lengthy series of small examples and test cases to verify the OpenMM installation and its ability to access your GPU. Once OpenMM is behaving correctly, you can proceed to the final stage of building the Tinker-OpenMM executable to provide a Tinker interface to OpenMM.
 
 <H2><B>Building Tinker-OpenMM from Source Code</B></H2>
 
