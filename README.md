@@ -1,4 +1,4 @@
-# Tinker-OpenMM: Tinker Interface to OpenMM
+# Tinker-OpenMM: Tinker Interface for OpenMM
 
 <H2><B>Introduction</B></H2>
 
