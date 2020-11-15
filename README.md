@@ -1,7 +1,4 @@
-# tinker-openmm
-Information on building the Tinker interface to OpenMM
-
-# Tinker: Software Tools for Molecular Design
+# Tinker-OpenMM: Tinker Interface to OpenMM
 
 <H2><B>Introduction</B></H2>
 
