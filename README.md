@@ -22,9 +22,9 @@ Tinker is provided as a complete distribution available from https://github.com/
 
 <B>(2)</B> First, build the FFTW Fourier transform package that is included with the Tinker distribution. Move to the tinker/fftw directory, then follow the instructions in the 0README file. After "make" and "make install", there will be static libraries for FFTW (libfftw3.a, etc.) in tinker/fftw/lib. 
 
-<B>(3)</B> Under the top-level tinker directory, create a /build subdirectory.
+<B>(3)</B> Move into the top-level ~/tinker directory, and create a /build subdirectory.
 
-<B>(4)</B> Move into the build directory, and copy source and related files via the commands "cp ../source/<I>*</I>.f" and "cp ../openmm/*".
+<B>(4)</B> Move into the new /build subdirectory, and copy source and related files via the commands "cp ../source/<I>*.f" and "cp ../openmm/*".
 
 <B>(5)</B> Check the directory environment variables near the top of the Makefile. As distributed, the section to build on Linux using the GNU compilers is activated.
 
