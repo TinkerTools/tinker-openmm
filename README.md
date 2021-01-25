@@ -16,7 +16,7 @@ Tinker-OpenMM requires several dynamic object libraries from the OpenMM package.
 
 <H2><B>Building Tinker-OpenMM from Source Code</B></H2>
 
-Tinker is provided as a complete distribution available from github.com/TinkerTools/tinker or from the Ponder lab website at dasher.wustl.edu/tinker. After unpacking the release, you can build the Tinker-OpenMM executables following the steps below:
+Tinker is provided as a complete distribution available from https://github.com/TinkerTools/tinker or from the Ponder lab website at https://dasher.wustl.edu/tinker. After unpacking the release, you can build the Tinker-OpenMM executables following the steps below:
 
 <B>(1)</B> We will assume you have unpacked Tinker in your home directory, ~/tinker. Other locations may require corresponding modification to the Makefile or other setup scripts.
 
@@ -26,8 +26,8 @@ Tinker is provided as a complete distribution available from github.com/TinkerTo
 
 <B>(4)</B> Move into the build directory, and copy source and related files via:
 
-      <B>(a)</B> cp ../source/*.f .
-      <B>(b)>/B> cp ../openmm/* .
+<B>(a)</B> cp ../source/*.f .
+<B>(b)>/B> cp ../openmm/* .
 
 <B>(5)</B> Check the directory environment variables near the top of the Makefile. As distributed, the section to build on Linux using the GNU compilers is activated.
 
