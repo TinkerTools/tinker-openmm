@@ -24,10 +24,7 @@ Tinker is provided as a complete distribution available from https://github.com/
 
 <B>(3)</B> Under the top-level tinker directory, create a /build subdirectory.
 
-<B>(4)</B> Move into the build directory, and copy source and related files via:
-
-  <B>(a)</B> cp ../source/*.f .
-  <B>(b)</B> cp ../openmm/* .
+<B>(4)</B> Move into the build directory, and copy source and related files via the commands "cp ../source/<I>*</I>.f" and "cp ../openmm/*".
 
 <B>(5)</B> Check the directory environment variables near the top of the Makefile. As distributed, the section to build on Linux using the GNU compilers is activated.
 
