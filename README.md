@@ -31,5 +31,3 @@ Tinker is provided as a complete distribution available from https://github.com/
 <B>(6)</B> Run the "make" command to build executables. When the build is finished, there will be three executables produced in the build directory, "analyze_omm.x", "bar_omm.x" and "dynamic_omm.x".
 
 These Tinker-OpenMM executables are GPU-enabled versions of the corresponding Tinker programs, and use OpenMM libraries to perform energy and force evaluations, as well as to take MD steps. Tinker-OpenMM supports the standard Tinker coordinate and parameter files, as well as many of the usual keyfile options. The executables can be renamed or moved elsewhere, but are dynamically linked against CUDA and OpenMM, which must remain available in the same location as when the build was performed.
-
-Please direct questions about Tinker-OpenMM to Jay Ponder (ponder@dasher.wustl.edu).
