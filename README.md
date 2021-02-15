@@ -2,7 +2,7 @@
 
 <H2><B>Introduction</B></H2>
 
-Tinker-OpenMM is an interface between Tinker and OpenMM. It provides an enhanced set of executables using Tinker as the "front end" while utilizing OpenMM on GPUs as the "back end" to perform fast energy-force eveluations and molecular dynamics simulations, particularly on NVIDIA GPUs. Tinker-OpenMM is primarily intended for use on Linux systems, and the instructions below support that operating system. The same instructions can be used for Macintosh computers running macOS. However, due to continuing disfunction in the relationship between Apple and NVIDIA, the last macOS version supported is High Sierra (10.13.6), the last CUDA version supported is 10.2, and NVIDIA drivers are only available for GPUs through the Pascal (GTX 10xx) series. We have no experience with native builds of either OpenMM or Tinker-OpenMM on Windows-based systems.
+Tinker-OpenMM is an interface between Tinker and OpenMM. It provides an enhanced set of executables using Tinker as the "front end" while utilizing OpenMM as the "back end" to perform fast energy-force eveluations and molecular dynamics simulations, particularly on NVIDIA GPUs. Tinker-OpenMM is primarily intended for use on Linux systems, and the instructions below support that operating system. The same instructions can be used for Macintosh computers running macOS. However, due to continuing disfunction in the relationship between Apple and NVIDIA, the last macOS version supported is High Sierra (10.13.6), the last CUDA version supported is 10.2, and NVIDIA drivers are only available for GPUs through the Pascal (GTX 10xx) series. We have no experience with native builds of either OpenMM or Tinker-OpenMM on Windows-based systems.
 
 <H2><B>The Tinker Package</B></H2>
 
