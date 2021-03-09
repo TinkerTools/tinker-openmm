@@ -1,5 +1,7 @@
 # Tinker-OpenMM: Tinker Interface for OpenMM
 
+# PLEASE NOTE!!  As of 4 March 2021, the OpenMM code has made a major change to its AMOEBA plugin. Almost all of the valence potential energy terms (bond, angles, torsions, etc.) have been removed as explicit code in the plugin itself and are now implemented only in the OpenMM Python interface as "custom forces". This breaks the Tinker-OpenMM interface, until such time as we can implement the corresponding custom forces in our C++ interface code. Until this is finished in the Tinker-OpenMM, you will need to build Tinker-OpenMM with an OpenMM release from just prior to 4 March 2021.
+
 <H2><B>Introduction</B></H2>
 
 Tinker-OpenMM is an interface between Tinker and OpenMM. It provides an enhanced set of executables using Tinker as the "front end" while utilizing OpenMM as the "back end" to perform fast energy-force eveluations and molecular dynamics simulations, particularly on NVIDIA GPUs. Tinker-OpenMM is primarily intended for use on Linux systems, and the instructions below support that operating system. The same instructions can be used for Macintosh computers running macOS. However, due to continuing disfunction in the relationship between Apple and NVIDIA, the last macOS version supported is High Sierra (10.13.6), the last CUDA version supported is 10.2, and NVIDIA drivers are only available for GPUs through the Pascal (GTX 10xx) series. We have no experience with native builds of either OpenMM or Tinker-OpenMM on Windows-based systems.
